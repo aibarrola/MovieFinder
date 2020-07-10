@@ -1,0 +1,22 @@
+<%- include('./search.ejs') %>
+
+<% for(var i=0; i< data.Search.length; i++){ %>
+
+
+    <div class="results">
+        <a href="https://google.com/search?q=<%=data.Search[i].Title%>" target="_blank">
+            <span class="title"></span><%= data.Search[i].Title %></span>,
+             <span class="year"> <%= data.Search[i].Year %> </span>
+        </a>
+    </div>
+
+<% } %>
+
+<hr class="line1">
+
+
+
+<!-- 
+<% data["Search"].forEach(function(movie){ %>
+    <li> <%= movie["Title"] %> </li> 
+<% }) %> -->
