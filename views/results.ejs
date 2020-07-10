@@ -1,9 +1,8 @@
 <%- include('./search.ejs') %>
 
-<% for(var i=0; i< data.Search.length; i++){ %>
-
 <hr class=line1>
 
+<% for(var i=0; i< data.Search.length; i++){ %>
     <div class="results">
         <a href="https://google.com/search?q=<%=data.Search[i].Title%>" target="_blank">
             <span class="title"></span><%= data.Search[i].Title %></span>,
