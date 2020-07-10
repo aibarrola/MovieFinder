@@ -19,7 +19,7 @@ a:hover{
 }
 #headerTitle{
     color: #AC3931;
-    font-size: 6rem;
+    font-size: 8vw;
     text-align:center;
     margin-bottom:0px;
 }
@@ -36,12 +36,13 @@ a:hover{
     text-align:center;
 }
 input{
-    width: 50%;
-    height: 5%;
+    width: auto;
+    height: 40px;
     justify-content: center;
     text-align:center;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
+    font-size: 1.5rem;
 }
 
 input[type=text]{
@@ -50,13 +51,14 @@ input[type=text]{
 
 input[type=submit]{
     width: 10%;
+    color: grey;
 }
 
 
 /* RESULTS STYLING */
 
 .results{
-    font-size: 3rem;
+    font-size: 3vw;
     text-align:center;
     margin-bottom: 5px;
     margin-left: 5%;
@@ -74,7 +76,7 @@ input[type=submit]{
 }
 
 .year{
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 
