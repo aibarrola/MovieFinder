@@ -1,5 +1,6 @@
 # MovieFinder
 Search for movies! 
+---
 
 __Context__: I loved movies and wanted to create a Google for movies!
 
